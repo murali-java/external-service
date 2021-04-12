@@ -1,0 +1,12 @@
+camunda:
+  bpm:
+    admin-user:
+     id: admin
+     password: admin
+
+logging:
+  level:
+    org.camunda.bpm.client: info
+
+retry:
+  codes: 1,2,3
